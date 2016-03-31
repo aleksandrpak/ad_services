@@ -1,0 +1,4 @@
+[package]
+name = "ad_services"
+version = "0.1.0"
+authors = ["Aleksandr Pak <alekspak@icloud.com>"]
