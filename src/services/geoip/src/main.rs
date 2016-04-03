@@ -15,7 +15,7 @@ fn main() {
 
     let mut server = Server::new("/geoip");
 
-    server.post("/lookup", |x| service.lookup(x));
+    server.post("/lookup", move |x| service.lookup(x));
 
     server.start("0.0.0.0:8080").unwrap();
 }

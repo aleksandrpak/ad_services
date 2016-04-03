@@ -8,6 +8,7 @@ pub struct LookupRequest {
     pub ip: String,
 }
 
+#[derive(Clone, Serialize)]
 pub struct LookupResponse {
     pub country_code: Option<String>,
     pub latitude: f32,
